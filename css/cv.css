@@ -1,0 +1,135 @@
+body{
+  background: url(../images/cover.jpg);
+  color: black;
+  font-family: inherit;
+  font-size: 20px;
+}
+header {
+  border: 1px solid black;
+  background: url(../images/cover2.jpg);
+  background-size: 1350px 200px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+.logo img{
+    width: 150px;
+    height: 130px;
+    padding-top: 40px;
+    padding-left: 30px;
+    opacity: 0.9;
+}
+header h1{
+  padding-left: 300px;
+  padding-top: 50px;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.menubar {
+    background: black;
+    border-radius: 12px;
+}
+.menubar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.menubar ul li {
+    padding: 0.5%;
+    margin: 0.1%;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    list-style: none;
+    border-radius: 10px;
+}
+.menubar ul li a{
+  color: white;
+}
+.menubar ul li:hover {
+    background: white;
+    width: 140px;
+    height: 23px;
+}
+.menubar ul li:hover a {
+    color: black;
+    text-shadow: 1px 1px 5px green, 0 0 20px black;
+}
+footer {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer h2{
+  padding-left: 5%;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.contact img{
+  height: 35px;
+  width: 35px;
+}
+.contact img:hover{
+  height: 40px;
+  width: 40px;
+}
+.contact ul li{
+  padding: 1%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.contact ul li a{
+  color: white;
+  padding-left: 3%;
+  padding-top: 2%;
+}
+.contact ul li:hover a{
+  color:green;
+}
+.location{
+  width: 35%;
+}
+.location img{
+  width: 200px;
+  height: 150px;
+  padding-top: 3  %;
+  padding-left: 4%;
+  transition:  2s, 2s, 2s;
+}
+.location img:hover{
+  width: 400px;
+  height: 300px;
+}
+.location h3{
+  text-align: center;
+}
+.blog{
+  width: 30%;
+
+}
+.blog ul{
+  padding-left: 55%;
+  padding-top: 5%;
+}
+.blog ul li a{
+  color: white;
+  padding: 2%;
+}
+.blog ul li:hover a{
+  color: green;
+}
+.blog h2{
+  padding-left: 40%;
+}
