@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+}
+body {
+    background: url(../images/background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: black;
+    font-family: serif;
+    font-size: 20px
+}
+header {
+  background: url(../images/cover.jpg);
+  background-size: 1350px 200px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.logo img{
+    width: 150px;
+    height: 130px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+header h1{
+  padding-left: 300px;
+  padding-top: 60px;
+  color: white;
+}
+a {
+    text-decoration: none;
+}
+.menubar {
+    background: #001D28;
+    border-radius: 12px;
+}
+.menubar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menubar ul li {
+    padding: 0.5%;
+    margin: 0.1%;
+     width: 130px;
+    height: 22px;
+    text-align: center;
+    list-style: none;
+}
+.menubar ul li a{
+  color: white;
+}
+.menubar ul li:hover a {
+    font-size: 25px;
+    color: #536DFE;
+    text-shadow: 1px 1px 5px black;
+}
+.biography{
+  background-color: #001D28;
+  border-radius: 0 20px 20px 0;
+  width: 80%;
+  height: 80px;
+}
+.biography h2{
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 40px;
+  color: #64FFDA;
+  text-shadow: 3px 2px  3px #4527A0;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.bio1{
+  width: 35%;
+  background-color: red;
+}
+.bio2{
+  width: 30%;
+  background-color: yellow;
+}
+.bio3{
+  width: 35%;
+  background-color: green;
+}
+footer {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.getme{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.getme h2{
+  margin-left: 10%;
+}
+.getme img{
+  height: 35px;
+  width: 35px;
+}
+.getme ul li{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+}
+.getme ul li a{
+  color: white;
+}
+.getme ul li:hover a{
+  color: #64B5F6;
+  font-size: 21px;
+}
+.blog{
+  width: 60%;
+}
+.blog h2{
+  padding-left: 10%;
+  padding-top: 1%;
+}
+.blog h3{
+  padding-top: 7%;
+}
+.blog ul{
+  padding-left: 18%;
+  padding-top: 2%;
+}
+.blog ul li{
+  padding: 1%;
+}
+.blog ul li a{
+  color: white;
+}
+.blog ul li:hover a{
+  color: #64B5F6;
+  font-size: 21px;
+}
