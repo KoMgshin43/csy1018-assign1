@@ -27,7 +27,8 @@ header {
 header h1{
   padding-left: 300px;
   padding-top: 60px;
-  color: white;
+  color: #84FFFF;
+  text-shadow: 2px 2px 3px #00E5FF;
 }
 a {
     text-decoration: none;
@@ -54,7 +55,7 @@ a {
 }
 .menubar ul li:hover a {
     font-size: 25px;
-    color: #536DFE;
+    color: #00E5FF;
     text-shadow: 1px 1px 5px black;
 }
 section {

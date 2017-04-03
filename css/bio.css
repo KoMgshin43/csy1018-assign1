@@ -27,7 +27,8 @@ header {
 header h1{
   padding-left: 300px;
   padding-top: 60px;
-  color: white;
+  color: #84FFFF;
+  text-shadow: 2px 2px 3px #00E5FF;
 }
 a {
     text-decoration: none;
@@ -54,7 +55,7 @@ a {
 }
 .menubar ul li:hover a {
     font-size: 25px;
-    color: #536DFE;
+    color: #00E5FF;
     text-shadow: 1px 1px 5px black;
 }
 .biography{
@@ -73,21 +74,41 @@ a {
 section{
   display: flex;
   flex-direction: row;
-  background-color: grey;
   margin-top: 35px;
   margin-bottom: 30px;
+  justify-content: space-around;
 }
 .bio1{
-  width: 35%;
-  background-color: red;
+  width: 30%;
+  height: 450px;
+  margin-top: 6%;
+  background-color: #E0F7FA;
+  padding: 1%;
+  text-align: justify;
+  border-radius: 25px 25px 5px 5px;
+  box-shadow: 6px 5px 7px;
 }
 .bio2{
-  width: 30%;
-  background-color: yellow;
+  width: 27%;
+  height: 650px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 6px 5px 7px;
+}
+.bio2 img{
+  width: 100%;
+  height: 650px;
+  border-radius: 15px;
 }
 .bio3{
-  width: 35%;
-  background-color: green;
+  width: 30%;
+  height: 450px;
+  margin-top: 6%;
+  background-color: #E0F7FA;
+  padding: 1%;
+  text-align: justify;
+  border-radius: 25px 25px 5px 5px;
+  box-shadow: 6px 5px 7px;
 }
 footer {
     background-color: #333333;
