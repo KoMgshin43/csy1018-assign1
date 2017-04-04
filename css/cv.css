@@ -120,7 +120,7 @@ section{
 
 }
 .two img{
-  width: 395px;
+  width: 100%;
   height: 350px;
   display: block;
   margin: auto;
@@ -211,4 +211,100 @@ footer {
 .blog ul li:hover a{
   color: #64B5F6;
   font-size: 21px;
+}
+@media all and (max-width: 600px){
+  body{
+    font-size: 18px;
+  }
+  header {
+    display: flex;
+    flex-direction: column
+  }
+  .logo img{
+      width: 80%;
+      height: 120px;
+  }
+  header h1{
+    font-size: 25px;
+    padding: 0;
+    padding-left: 30px;
+  }
+  .menubar{
+    border-radius: 15px;
+  }
+  .menubar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menubar ul li {
+    width: 100%;
+    height: 30px;
+  }
+  .cv{
+    border-radius: 15px;
+    width: 100%;
+    height: 65px;
+  }
+  .cv h2{
+    font-size: 30px;
+  }
+  section{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .first{
+    left: 0;
+    width: 98%;
+    height: auto;
+  }
+  .middle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .one{
+    height: auto;
+    width: 98%;
+  }
+  .two{
+    width: 98%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .two img{
+    width: 100%;
+    height: auto;
+  }
+  .three{
+    width: 98%;
+    height: auto;
+  }
+  .last{
+    left: 0;
+    height: auto;
+    width: 98%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  .getme{
+    width: 100%;
+  }
+  .getme ul li{
+    padding-left: 10%;
+  }
+  .getme ul li:hover a{
+    font-size: 17px;
+  }
+  .blog{
+    width: 100%;
+  }
+  .blog ul li:hover a{
+    font-size: 17px;
+  }
+  .blog h3{
+    padding-left: 15%;
+  }
 }
