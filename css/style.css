@@ -1,107 +1,109 @@
+/*Name:Sandesh Thapa Magar
+UN ID:17421486*/
 *{
   padding: 0;
 }
 body {
-    background: url(../images/background.jpg);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    color: black;
-    font-family: serif;
-    font-size: 20px
+  background: url(../images/background.jpg); /* Background image of the body */
+  background-repeat: repeat; /* It repeats the background image */
+  background-attachment: fixed; /* It fixed the position of the background image */
+  color: black;   /* Set default text color of the page */
+  font-family: serif; /* Set the text style */
+  font-size: 20px; /* Set default text size of the webpage */
 }
 header {
-  background: url(../images/cover.jpg);
+  background: url(../images/cover.jpg); /* Background image of the header part */
   background-size: 1350px 200px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
   height: 200px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0; 
 }
-.logo img{
-    width: 150px;
-    height: 130px;
-    padding-top: 25px;
-    padding-left: 30px;
-    transition-duration: 1s;
+.logo img{         /* Image of the logo */
+  width: 150px;
+  height: 130px;
+  padding-top: 25px;
+  padding-left: 30px;
+  transition-duration: 1s;
 }
-.logo img:hover{
-  transform: scale(1.1);
+.logo img:hover{  
+  transform: scale(1.1);  /* Increase the size of the logo while hover */
 }
 header h1{
   padding-left: 300px;
   padding-top: 60px;
-  color: #84FFFF;
-  text-shadow: 2px 2px 3px #00E5FF;
+  color: #84FFFF;   /* It gives the skyblue color to the text */
+  text-shadow: 2px 2px 3px #00E5FF; /* It gives shadow to the text with skyblue color  */
 }
 a {
-    text-decoration: none;
+  text-decoration: none; /* It removes the text decoration of anchor element */
 }
 .menubar {
-    background: #001D28;
-    border-radius: 0 12px 12px 0;
+  background: #001D28; /* It gives darkblue background color to the menubar */
+  border-radius: 0 12px 12px 0;
 }
 .menubar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* It shift the unorderlist to the right side of the menubar  */
 }
 .menubar ul li {
-    padding: 0.5%;
-    margin: 0.1%;
-     width: 130px;
-    height: 22px;
-    text-align: center;
-    list-style: none;
+  padding: 0.5%;
+  margin: 0.1%;
+  width: 130px;
+  height: 22px;
+  text-align: center; /* Set the text in center position of menubar ul li */
+  list-style: none;
 }
 .menubar ul li a{
-  color: white;
+  color: white; /* Set the text color white of the menubar */
 }
-.menubar ul li:hover a {
-    font-size: 25px;
-    color: #00E5FF;
-    text-shadow: 1px 1px 5px black;
+.menubar ul li:hover a { /* Enlarge the text size while ponting the mouse */
+  font-size: 25px;
+  color: #00E5FF; /* Set lightblue color of the text while hover */
+  text-shadow: 1px 1px 5px black;
 }
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* It gives equal space on each side of the content */
+  margin-top: 50px;
+  margin-bottom: 35px;
 }
 .main{
   width: 72%;
   padding: 1%;
-  background-color: #E0F7FA;
+  background-color: #E0F7FA; /* Set lightblue background color to the main content  */
   border-radius: 5px 40px;
-  height: 350px;
-  box-shadow: 5px 5px 6px;
+  height: 350px;             /* Set the height of the main division */
+  box-shadow: 5px 5px 6px; /* Gives shadow to the division */
 }
 .main h2{
   text-align: center;
-  text-shadow: 2px 2px 3px #2196F3;
+  text-shadow: 2px 2px 3px #2196F3; /* Set color blue to the text shadow */
 }
 .paragraph{
-  text-align: right;
-  border-style: inset;
+  text-align: right; /* Shift the text to the right side side */
+  border-style: inset; 
 }
 .nav{
   width: 22%;
   padding: 1%;
-  background-color: #E0F7FA;
-  height: 500px;
+  background-color: #E0F7FA; /* Set lightblue background color to the nav content  */
+  height: 500px;  /* Set the height the nav division */
   border-radius:40px 40px 5px 5px;
   box-shadow: 5px 5px 6px;
 }
 .nav h2{
   text-align: center;
-  text-shadow: 2px 2px 3px #2196F3;
+  text-shadow: 2px 2px 3px #2196F3; /* Set color blue to the text shadow */
 }
 .nav img{
   height: 200px;
   width: 200px;
   display: block;
-  margin: auto;
+  margin: auto; /* Shit the image to the center */
   transition-property: border-radius;
   border-radius: 50%;
   transition-duration: .3s;
@@ -113,16 +115,16 @@ section {
   border: 1px solid red;
 }
 footer {
-    background-color: #333333;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  background-color: #333333; /* Give grey background to the footer part */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* It gives space between the content */
 }
 .getme{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 40%; /* Gives the width to the getme division  */
 }
 .getme h2{
   margin-left: 10%;
@@ -137,14 +139,14 @@ footer {
   padding-left: 20%;
 }
 .getme ul li a{
-  color: white;
+  color: white; /* Set the text color white */
 }
 .getme ul li:hover a{
-  color: #64B5F6;
-  font-size: 21px;
+  color: #64B5F6; /* Set lightblue color while hover */
+  font-size: 21px; /* Increase the size of text while hover */
 }
 .blog{
-  width: 60%;
+  width: 60%; /* Gives the width to the blog division  */
 }
 .blog h2{
   padding-left: 10%;
@@ -164,25 +166,25 @@ footer {
   color: white;
 }
 .blog ul li:hover a{
-  color: #64B5F6;
-  font-size: 21px;
+  color: #64B5F6; /* Set lightblue color while hover */
+  font-size: 21px; /* Increase the size of text while hover */
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 600px){  /* It is used to webpage usable in small screen */
   body{
-    font-size: 18px;
+    font-size: 18px; /* set defult text size on the mobile screen */
   }
   header {
     display: flex;
     flex-direction: column
   }
-  .logo img{
-      width: 80%;
-      height: 120px;
+  .logo img{ /* Set the size of the logo in small screen*/
+    width: 80%;
+    height: 120px;
   }
   header h1{
-    font-size: 25px;
+    font-size: 25px; /* Gives the size to the heading text */
     padding: 0;
-    padding-left: 30px;
+    padding-left: 45px;
   }
   .menubar{
     border-radius: 15px;
@@ -202,16 +204,18 @@ footer {
     margin-bottom: 20px;
   }
   .main{
-    width: 98%;
+    width: 93%;
     height: auto;
     margin-bottom: 15px;
+    padding: 3%;
   }
   .paragraph{
     text-align: center;
   }
   .nav{
-    width: 98%;
+    width: 93%;
     height: auto;
+    padding: 3%;
   }
   footer {
     display: flex;
@@ -225,7 +229,7 @@ footer {
     padding-left: 10%;
   }
   .getme ul li:hover a{
-    font-size: 17px;
+    font-size: 17px; /* Increase the size of the text while hover in mobile screen */
   }
   .blog{
     width: 100%;
