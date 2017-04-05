@@ -123,7 +123,7 @@ input[type="submit"]{
   transition: 0.5s;
 }
 input[type="submit"]:hover{
-  width: 110px; /* Increase the size while hover */ 
+  width: 110px; /* Increase the size while hover */
   height: 32px;
   box-shadow: 2px 2px 3px; /* Gives shadow to the submit box while hover */
 }
@@ -167,7 +167,7 @@ footer {
 }
 .getme ul li a{
   color: white; /* Set the text color white */
-} 
+}
 .getme ul li:hover a{
   color: #64B5F6; /* Set lightblue color while hover */
   font-size: 21px; /* Increase the size of text while hover */
@@ -196,13 +196,13 @@ footer {
   color: #64B5F6; /* Set lightblue color while hover */
   font-size: 21px; /* Increase the size of text while hover */
 }
-@media all and (max-width: 600px){ /* It is used to webpage usable in small screen */
+@media (max-width: 600px){ /* It is used to webpage usable in small screen */
   body{
     font-size: 18px; /* set defult text size on the mobile screen */
   }
   header {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
   .logo img{
     width: 80%;

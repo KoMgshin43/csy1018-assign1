@@ -18,7 +18,7 @@ header {
   display: flex;
   flex-direction: row;
   height: 200px;
-  border-radius: 10px 10px 0 0; 
+  border-radius: 10px 10px 0 0;
 }
 .logo img{         /* Image of the logo */
   width: 150px;
@@ -27,7 +27,7 @@ header {
   padding-left: 30px;
   transition-duration: 1s;
 }
-.logo img:hover{  
+.logo img:hover{
   transform: scale(1.1);  /* Increase the size of the logo while hover */
 }
 header h1{
@@ -85,7 +85,7 @@ section {
 }
 .paragraph{
   text-align: right; /* Shift the text to the right side side */
-  border-style: inset; 
+  border-style: inset;
 }
 .nav{
   width: 22%;
@@ -169,13 +169,13 @@ footer {
   color: #64B5F6; /* Set lightblue color while hover */
   font-size: 21px; /* Increase the size of text while hover */
 }
-@media all and (max-width: 600px){  /* It is used to webpage usable in small screen */
+@media (max-width: 600px){  /* It is used to webpage usable in small screen */
   body{
     font-size: 18px; /* set defult text size on the mobile screen */
   }
   header {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
   .logo img{ /* Set the size of the logo in small screen*/
     width: 80%;
