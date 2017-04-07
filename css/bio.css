@@ -97,18 +97,33 @@ section{
 .bio2{
   width: 27%;
   height: 650px;
+  position: relative; /* It helps to move the content */
   background-color: white; /* Set backgroundcolor white  */
   border-radius: 15px;
   box-shadow: 6px 5px 7px; /* Gives shadow to the division */
 }
 .bio2 img{
+  position: absolute;
   width: 100%;
   height: 650px;
   border-radius: 15px;
+  z-index: 3;
+  animation: slideshow 10s linear 0s infinite;
 }
-.bio2 img:hover{
-  opacity: 0.5;  /* Image gets blur while pointing mouse */
+img:nth-child(2){ /* Numbering of image in a row */
+  z-index: 2;
+  animation: slideshow 10s linear 3s infinite;
 }
+img:nth-child(3){  /* Numbering of image in a row */
+  z-index: 1;
+  animation:slideshow 10s linear 6s infinite;
+}
+@keyframes slideshow {  /* keyframes helps to mke animation */
+  30% { opacity: 1;}
+  40% { opacity: 0;}
+  90% { opacity: 0;}
+  100% { opacity: 1;}
+ }
 .bio3{
   width: 30%;
   height: 450px;
